@@ -1,0 +1,54 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files and serialized objects
+models/**/*.pkl
+models/**/*.joblib
+
+# Data folders (optional - remove if you want to track data)
+data/
+*.csv
+*.tsv
+*.jsonl
+
+# Streamlit-specific
+.streamlit/config.toml
+.streamlit/*.toml
+.streamlit/*.json
+
+# FastAPI run-time artifacts
+*.log
+
+# Environment files
+.env
+.env.*
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Compiled or temporary files
+*.tmp
+*.bak
+*.swp
